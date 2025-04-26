@@ -1,15 +1,38 @@
-/node_modules
-/public/hot
-/public/storage
-/storage/*.key
-/vendor
+# Dependensi
+node_modules
+vendor
+
+# File sementara Laravel
+public/hot
+public/storage
+public/mix-manifest.json
+storage/*.key
+storage/logs/*
+.phpunit.result.cache
+
+# File environment
 .env
 .env.backup
-.phpunit.result.cache
+
+# File Docker
+docker-compose.yml
 docker-compose.override.yml
+
+# File Homestead
 Homestead.json
 Homestead.yaml
+
+# File log
 npm-debug.log
 yarn-error.log
+*.log
+*.cache
+
+# File sementara OS atau editor
+.DS_Store
+Thumbs.db
+*.swp
+
+# File konfigurasi IDE
 /.idea
 /.vscode

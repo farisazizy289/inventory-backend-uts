@@ -6,5 +6,15 @@
 *.md diff=markdown
 *.php diff=php
 
+# Atur semua file teks untuk menggunakan LF di repositori
+* text=auto eol=lf
+
+# Pastikan file tertentu (seperti shell script) menggunakan LF
+*.sh text eol=lf
+
+# File biner tidak dianggap sebagai teks
+*.png binary
+*.jpg binary
+
 /.github export-ignore
 CHANGELOG.md export-ignore
